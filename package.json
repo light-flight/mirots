@@ -9,7 +9,7 @@
   "homepage": "https://light-flight.github.io/mirots/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/light-flight/mirots.git"
+    "url": "git@github.com:light-flight/mirots.git"
   },
   "scripts": {
     "start": "gulp",

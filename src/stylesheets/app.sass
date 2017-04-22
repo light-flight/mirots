@@ -1,12 +1,13 @@
 @import normalize
 @import base/mixins
+@import base/vars
 @import base/global
 
 +font-face(PhageRoughKG, '../fonts/PhageRoughKG')
 
 .header-logo
   padding: 16px 8px
-  background-color: #444
+  background-color: $dark-text
   img
     display: block
     width: 90px
@@ -14,11 +15,85 @@
     margin: 0 auto
   h1
     margin: 0
-    font-family: PhageRoughKG
     font-size: 1.2em
-    color: #eee
+    color: $light-text
     text-align: center
-    text-transform: uppercase
     letter-spacing: 2px
-    & + h1
-      margin-top: .2em
+    line-height: 1.6
+
+.infographics
+  .info-numbers
+    list-style: none
+    padding: 0 8px 16px
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    li
+      width: 74px
+      margin: 8px 16px
+      span
+        display: block
+        margin: 0 auto
+        text-align: center
+      .item-name
+        font-family: PhageRoughKG
+        color: $dark-text
+        padding: 8px 0
+        font-size: .8em
+        &.long
+          margin-left: -16px
+      .item-number
+        width: 64px
+        height: 64px
+        border: solid 5px $accent-blue
+        border-radius: 50%
+        font-size: 1.6em
+        color: $accent-blue
+        line-height: 64px
+  .examples
+    display: none
+
+.georgraphy
+  .country img
+    width: 100%
+
+#videos
+  .video-responsive
+    margin-bottom: 16px
+
+.contact-us-now
+  .socials
+    display: flex
+    justify-content: space-around
+    padding: 0
+    margin: 28px 0
+    list-style: none
+  .contacts
+    list-style: none
+    padding: 0
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    li
+      display: flex
+      &+li
+        margin-top: 16px
+    img
+      width: 30px
+      height: 30px
+    a
+      display: inline-block
+      margin-left: 8px
+      line-height: 1.7
+      color: $dark-text
+      font-size: 1.2em
+      font-weight: 700
+      text-decoration: none
+      background: linear-gradient(90deg, $accent-blue 66%, transparent 0) repeat-x
+      background-size: .7em 2px
+      background-position: 0 1.25em
+      text-shadow: .05em 0 $light-text, -.05em 0 $light-text
+      overflow: visible
+
+.calendar-responsive
+  padding-bottom: 90%
