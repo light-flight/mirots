@@ -1,15 +1,15 @@
 {
-  "name": "gulp-starter",
-  "version": "3.1.0",
-  "description": "A full featured configurable gulp asset pipeline and static site builder",
+  "name": "mirots",
+  "version": "1.0.0",
+  "description": "",
   "engines": {
     "node": ">=0.12.0 ~5.9.0",
     "npm": ">=2.14.12 ~3.7.3"
   },
-  "homepage": "http://code.viget.com/gulp-starter/",
+  "homepage": "https://light-flight.github.io/mirots/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vigetlabs/gulp-starter.git"
+    "url": "git://github.com/light-flight/mirots.git"
   },
   "scripts": {
     "start": "gulp",
