@@ -1,6 +1,10 @@
 {
+  "fonts/OpenSans.ttf": "fonts/OpenSans-629a55a7e7.ttf",
   "fonts/PhageRoughKG.ttf": "fonts/PhageRoughKG-baf793d971.ttf",
+  "fonts/Roboto.ttf": "fonts/Roboto-5673da52c9.ttf",
   "images/gmail.svg": "images/gmail-a17bcb56b2.svg",
+  "images/inst.svg": "images/inst-0ff9fcedfa.svg",
+  "images/instbg.jpg": "images/instbg-875659ab9f.jpg",
   "images/michael-white.png": "images/michael-white-54823daa8c.png",
   "images/michael-white.svg": "images/michael-white-fc1d703194.svg",
   "images/michael.png": "images/michael-2794628b07.png",
@@ -12,5 +16,5 @@
   "images/vk.svg": "images/vk-839cb635da.svg",
   "images/whatsapp.svg": "images/whatsapp-79314cebeb.svg",
   "javascripts/app.js": "javascripts/app-8cb3c4186cdb8197d5b4.js",
-  "stylesheets/app.css": "stylesheets/app-46f9d9afee.css"
+  "stylesheets/app.css": "stylesheets/app-af006d1c8c.css"
 }
