@@ -4,6 +4,8 @@
 @import base/global
 
 +font-face(PhageRoughKG, '../fonts/PhageRoughKG')
+// +font-face(OpenSans, '../fonts/OpenSans')
++font-face(Roboto, '../fonts/Roboto')
 
 .header-logo
   padding: 16px 8px
@@ -95,5 +97,46 @@
       text-shadow: .05em 0 $light-text, -.05em 0 $light-text
       overflow: visible
 
+.inst
+  background: url('../images/instbg.jpg') no-repeat
+  background-size: 100%
+  h2
+    padding-top: 10px
+    margin-bottom: 8px
+    color: $light-text
+  img
+    width: 28px
+  p
+    margin-top: 0
+    display: flex
+    align-items: center
+    padding-bottom: 16px
+  a
+    display: inline-block
+    margin-left: 8px
+    line-height: 1.7
+    color: $light-text
+    font-size: 1.2em
+    font-weight: 700
+    text-decoration: none
+    overflow: visible
+
 .calendar-responsive
   padding-bottom: 90%
+
+.other-stuff
+  margin-top: 32px;
+  background-color: $dark-text
+  color: $light-text
+  p:first-of-type
+    margin-top: 0
+    padding-top: 32px
+  h2
+    color: $light-text
+  img
+    width: 100%
+  iframe
+    width: 100% !important
+    margin: 0 !important
+    border-radius: 0 !important
+    border: none !important
