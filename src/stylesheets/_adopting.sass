@@ -1,0 +1,63 @@
+$tablet-width: 600px
+$desktop-width: 1024px
+
+=tablet
+  @media (min-width: #{$tablet-width})
+    @content
+
+=desktop
+  @media (min-width: #{$desktop-width})
+    @content
+
++tablet
+  body
+    font-size: 105%
+  .container
+    width: 600px
+    margin: 0 auto
+    box-shadow: 0 0 10px 0 rgba(#444, .6)
+  .infographics
+    .item-name
+      font-size: 1.1em
+      &.long
+        margin-left: -20% !important
+    .item-number
+    font-size: .9em
+  .calendar-responsive
+    padding-bottom: 60%
+
++desktop
+  body
+    font-size: 110%
+  .container
+    width: auto
+    width: 800px
+  section
+    padding: 16px 0
+  h1, h2, h3, h4, h5, h6
+    font-size: 180% !important
+    padding: 36px 24px 12px
+  section > p
+    padding: 24px 24px
+  .infographics
+    .item-name.long
+        margin-left: -19% !important
+  #videos
+    padding: 24px 36px 0
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    .video-responsive-container
+      width: 45%
+    .video-responsive
+      margin-bottom: 36px
+  .socials, .contacts
+    width: 600px
+    margin: 0 auto
+  .other-stuff
+    display: flex
+    flex-wrap: wrap
+    p
+      width: 100%
+    &>*
+      width: 400px
